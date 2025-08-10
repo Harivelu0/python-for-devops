@@ -1,6 +1,3 @@
-Absolutely! Here’s a detailed README.md draft for your Kubemate project including everything — app overview, local run, Docker, Elastic Beanstalk deployment from init to termination, env vars, and more:
-
----
 
 # Kubemate — Kubernetes DevOps Chatbot & Log Anomaly Detector
 
