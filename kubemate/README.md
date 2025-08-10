@@ -193,10 +193,3 @@ CMD ["python3", "main.py"]
 
 ---
 
-## License
-
-MIT License
-
----
-
-If you want, I can generate a ready-to-publish markdown file with this content. Would you like that?
