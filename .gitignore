@@ -1,0 +1,14 @@
+/ansible_playbook
+/docker_manager.py
+/docker_metric
+/ec2_instance_management.py
+/kube-RBAC
+/kube-python
+/log_report.txt
+/pod_checker.py
+/scan-report-of-nginx:latest-2025-08-05_00-26-33.json
+/scan_image.py
+/system_utilization.log
+/terraform-python
+/k8fastapi/
+/log_analyser
