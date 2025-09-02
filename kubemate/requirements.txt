@@ -1,0 +1,9 @@
+flask
+google-generativeai
+flask-session
+python-dotenv
+markdown
+langchain
+google-generativeai
+langchain-community
+langchain-google-genai
