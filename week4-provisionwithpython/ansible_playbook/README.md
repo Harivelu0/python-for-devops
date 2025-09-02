@@ -1,5 +1,5 @@
 
-#  Python + Ansible Automation (Week 4 - Task 2)
+#  Python Ansible Automation (Week 4 - Task 2)
 
 This project demonstrates how to **run Ansible playbooks from Python** using `ansible-runner`.
 
