@@ -1,5 +1,5 @@
 
-# 🚀 Python + Terraform Automation (Week 4 - Task 1)
+# Python + Terraform Automation (Week 4 - Task 1)
 
 This project demonstrates how to **automate Terraform commands using Python** to provision basic AWS infrastructure.  
 
