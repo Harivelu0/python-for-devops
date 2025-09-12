@@ -1,124 +1,95 @@
 
-#  Log Anomaly Detection System (v1)
+# Log Anomaly Detection System
 
-A Python + Flask-based tool that detects anomalies in CI/CD logs (e.g., GitHub Actions) using machine learning (Isolation Forest) and visualizes them for easy debugging.
-
----
+A Python + Flask web application that detects anomalies in logs using machine learning (Isolation Forest) and visualizes them for easy debugging.
 
 ## 🚀 Features
 
-- 📦 Upload `.zip` of GitHub Actions or CI logs
-- 📂 Auto-extract and parse `.txt` logs
-- 🤖 Detect anomalies using Isolation Forest
-- 📊 Visualize anomalies with a red/green bar chart
-- 📄 View anomalies in a table (with CSV export)
-- 🌐 Lightweight Flask-based web UI
-
----
+- Upload log files (.log or .txt)
+- Intelligent anomaly detection beyond simple ERROR filtering
+- Advanced feature extraction from log messages
+- Visualization with highlighted anomalies
+- Export results as CSV for further analysis
 
 ## 🧰 Tech Stack
 
 - Python 3.10+
-- Flask
-- scikit-learn
-- pandas
-- matplotlib
+- Flask for the web interface
+- scikit-learn for Isolation Forest algorithm
+- pandas for data manipulation
+- matplotlib for visualization
 
----
+## 🏃‍♂️ Quick Start
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Harivelu0/log-anomaly-detector.git
+   cd log-anomaly-detector
+   ```
+
+2. Create & activate virtual environment
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application
+   ```bash
+   python main.py
+   ```
+
+5. Open http://127.0.0.1:5000/ in your browser
 
 ## 🗂️ Project Structure
 
 ```
-
-log\_analyser/
-├── app/
-│   ├── main.py
-│   ├── static/
-│   │   └── anomaly\_chart.png
-│   └── templates/
-│       └── index.html
+log_analyser/
+├── Readme.md
 ├── core/
-│   ├── parser.py
-│   ├── preprocessor.py
-│   └── anamoly\_detector.py
-├── logs/
-│   ├── uploaded.zip
-│   └── unzipped/
-├── requirements.txt
-└── README.md
-
-````
-
----
-
-## ⚙️ Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/log-anomaly-detector.git
-cd log-anomaly-detector
-````
-
-### 2️⃣ Create & Activate Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+│   ├── anamoly_detector.py  # ML algorithm implementation
+│   ├── parser.py            # Log file parsing
+│   └── preprocessor.py      # Feature extraction
+├── logs/                    # Uploaded logs storage
+├── main.py                  # Flask application
+├── requirements.txt         # Dependencies
+├── static/                  # Static assets (charts)
+│   └── anomaly_chart.png
+└── templates/               # HTML templates
+    └── index.html           # Main UI
 ```
 
-### 3️⃣ Install Dependencies
+## 📊 How It Works
 
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Flask App
-
-```bash
-python3 -m app.main
-```
-
-App will be available at:
-
-```
-http://127.0.0.1:5000/
-```
-
----
+1. **Log Parsing**: Convert raw logs to structured data
+2. **Feature Extraction**: Generate numeric features from log content
+3. **Anomaly Detection**: Use Isolation Forest to identify outliers
+4. **Visualization**: Display anomalies in chart and table format
 
 ## 📝 Usage
 
 1. Open the web UI
-2. Upload a `.zip` file that contains one or more `.txt` log files (e.g., GitHub Actions logs)
+2. Upload a log file (.log or .txt)
 3. The app will:
-
    * Parse the logs
    * Preprocess log messages
    * Detect anomalies using ML
    * Show results in a chart and a table
 4. You can download the results as `anomalies.csv`
 
----
+## 📈 Future Improvements
 
-## 📊 Sample Output
-
-### Anomaly Chart
-
-![Anomaly Chart](log_analyser/static/anomaly_chart.png)
-
----
-
-## 📌 What’s Next (v2 Plan: CI/CD Analyzer)
-
-* 🔁 Auto-analysis during every GitHub Actions run
-* 🤖 Root cause suggestions via LLMs (Gemini/OpenAI)
-* 🧠 Smarter error classification
-* 🌍 Multi-user dashboard and log history
-
----
+- Add support for more log formats
+- Implement adaptive learning based on user feedback
+- Add clustering to group similar anomalies
+- Create API endpoints for integration with other systems
+- Add real-time processing capability for streaming logs
 
 ## 👤 Author
 
 Made with ❤️ by [Hari](https://github.com/Harivelu0)
-
+```
