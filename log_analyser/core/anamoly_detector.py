@@ -57,7 +57,7 @@ if __name__ == "__main__":
     df_features = preprocess_features(df)
     
     print("[🤖] Running anomaly detection...")
-    # You might want to adjust contamination based on your expected anomaly rate
+    #  want to adjust contamination based on your expected anomaly rate
     # If about 10% of logs are anomalies, use contamination=0.1
     df_anomalies = detect_anomalies(df_features, contamination=0.1)
     
