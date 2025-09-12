@@ -1,0 +1,160 @@
+type,line,anomaly_score
+INFO,INFO Database connection failed,-1
+ERROR,ERROR API request received: POST /order,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR Query executed successfully,-1
+ERROR,ERROR CPU usage at 95%,-1
+ERROR,ERROR Failed login attempt detected,1
+WARNING,WARNING CPU usage at 95%,-1
+INFO,CRITICAL Database connection failed,-1
+WARNING,WARNING Network latency detected,-1
+ERROR,ERROR Network latency detected,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+ERROR,ERROR API request received: POST /order,-1
+ERROR,ERROR Database connection failed,-1
+ERROR,ERROR Unauthorized access attempt to admin panel,1
+ERROR,ERROR Cache miss for user session,1
+WARNING,WARNING Disk write failure detected,-1
+WARNING,WARNING Service health check failed,-1
+WARNING,WARNING Network latency detected,-1
+ERROR,ERROR Service restarted automatically,1
+ERROR,ERROR High I/O wait time on primary disk,1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,ERROR Brute force protection activated,1
+ERROR,"ERROR Multiple failed login attempts, account locked",-1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,ERROR Failed login attempt detected,1
+WARNING,WARNING Database connection established,-1
+ERROR,ERROR Database disk space low,-1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,"ERROR Multiple failed login attempts, account locked",-1
+ERROR,"ERROR Multiple failed login attempts, account locked",-1
+ERROR,ERROR Service health check failed,-1
+ERROR,ERROR Transaction rollback due to deadlock,1
+INFO,INFO Database connection failed,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR Memory usage exceeded threshold,1
+ERROR,ERROR User changed password,1
+ERROR,ERROR API request received: GET /products,1
+ERROR,ERROR API request received: GET /products,1
+WARNING,WARNING Unhandled exception in payment module,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR API request received: POST /order,-1
+ERROR,ERROR Dependency service unreachable,1
+ERROR,ERROR Disk write failure detected,-1
+WARNING,WARNING Service health check failed,-1
+ERROR,ERROR Failed to load configuration file,1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+ERROR,ERROR Query executed successfully,-1
+WARNING,WARNING Network latency detected,-1
+ERROR,ERROR API request received: POST /order,-1
+ERROR,ERROR User changed password,1
+WARNING,WARNING CPU usage at 95%,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR Database disk space low,-1
+ERROR,ERROR Failed to load configuration file,1
+WARNING,WARNING CPU usage at 95%,-1
+ERROR,ERROR Database connection established,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+WARNING,WARNING Disk write failure detected,-1
+ERROR,ERROR User changed password,1
+ERROR,ERROR User changed password,1
+ERROR,ERROR User changed password,1
+ERROR,ERROR Unhandled exception in payment module,-1
+ERROR,ERROR CPU usage at 95%,-1
+ERROR,ERROR Memory usage exceeded threshold,1
+ERROR,ERROR Rate limit exceeded for user,1
+ERROR,ERROR Transaction rollback due to deadlock,1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR Cache miss for user session,1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR API request received: GET /products,1
+ERROR,ERROR Memory usage exceeded threshold,1
+ERROR,ERROR Transaction committed,1
+ERROR,ERROR User logged in,1
+WARNING,WARNING Disk write failure detected,-1
+ERROR,ERROR User logged in,1
+WARNING,WARNING Service health check failed,-1
+INFO,CRITICAL Database connection failed,-1
+WARNING,WARNING Network latency detected,-1
+WARNING,WARNING Network latency detected,-1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING Database connection failed,-1
+ERROR,ERROR Disk write failure detected,-1
+ERROR,ERROR Brute force protection activated,1
+ERROR,ERROR Network latency detected,-1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING Unhandled exception in payment module,-1
+WARNING,WARNING CPU usage at 95%,-1
+ERROR,ERROR Network latency detected,-1
+ERROR,ERROR User logged in,1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR Service health check failed,-1
+ERROR,ERROR Transaction committed,1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING Unhandled exception in payment module,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR Memory usage exceeded threshold,1
+ERROR,ERROR Transaction committed,1
+ERROR,ERROR CPU usage at 95%,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR Memory usage exceeded threshold,1
+ERROR,ERROR Service restarted automatically,1
+ERROR,ERROR Database connection established,-1
+ERROR,ERROR API request received: GET /products,1
+ERROR,ERROR Unauthorized access attempt to admin panel,1
+ERROR,ERROR Transaction rollback due to deadlock,1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR Transaction committed,1
+ERROR,ERROR Failed to load configuration file,1
+WARNING,WARNING Unhandled exception in payment module,-1
+ERROR,ERROR Database connection established,-1
+ERROR,ERROR Brute force protection activated,1
+WARNING,WARNING Database connection established,-1
+ERROR,ERROR User logged in,1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,ERROR Rate limit exceeded for user,1
+ERROR,ERROR Query executed successfully,-1
+ERROR,ERROR User logged in,1
+WARNING,WARNING Database connection failed,-1
+ERROR,ERROR Dependency service unreachable,1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING CPU usage at 95%,-1
+ERROR,ERROR Failed login attempt detected,1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR API request received: POST /order,-1
+ERROR,ERROR Service health check failed,-1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,ERROR Failed to load configuration file,1
+ERROR,ERROR Failed to load configuration file,1
+INFO,INFO Database connection failed,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+ERROR,ERROR Database disk space low,-1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR Network latency detected,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+WARNING,WARNING Database connection failed,-1
+ERROR,ERROR Slow query detected: SELECT * FROM orders,-1
+ERROR,ERROR User updated profile,1
+ERROR,ERROR API request received: GET /products,1
+ERROR,ERROR Unauthorized access attempt to admin panel,1
+WARNING,WARNING Disk write failure detected,-1
+INFO,INFO Database connection failed,-1
+ERROR,ERROR Dependency service unreachable,1
+ERROR,ERROR Service health check failed,-1
+ERROR,ERROR User session expired,1
+ERROR,ERROR Network latency detected,-1
+ERROR,ERROR Query executed successfully,-1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING Unhandled exception in payment module,-1
+WARNING,WARNING Database connection established,-1
+WARNING,"WARNING Multiple failed login attempts, account locked",-1
+ERROR,ERROR User session expired,1
+INFO,INFO Database connection failed,-1
+WARNING,WARNING Database connection failed,-1
+ERROR,ERROR API request received: GET /products,1
+ERROR,ERROR Suspicious IP access blocked,-1
+ERROR,ERROR Rate limit exceeded for user,1
+WARNING,WARNING Database connection established,-1
