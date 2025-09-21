@@ -1,0 +1,1 @@
+Automating GitHub PR Notifications with Slack Integration https://dev.to/techwithhari/automating-github-pr-notifications-with-slack-integration-a-journey-2mje
