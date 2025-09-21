@@ -1,4 +1,0 @@
-Log summary
-************
-WARNING:5
-ERROR:2
